@@ -5,3 +5,7 @@ deploy:
   provider: heroku
   api_key:
     secure: WwBJ1I6uh2aGiwvLqF6Mot9eK1FyLacl/c8N+aTRliOsgFiv9hTjHElHxX+iKSsLl+lqRV8gVyKNnvBLUQ3v+QAMwa65Tq63Wkp/cok8il1dARH9QAoJpWg8ZIxFmkGczSEb4JKqUdQ+y7/eE9Y/I3QePi//WspaWsdNVFsdqlv6InLHYpoyPL1D3OC9z5v0dkA7fTtLsXAeSMNVldijKPP/lX87L21sYrQo/DdqK0adbwDYGqY3H3pJexALi01mPKCIMBst9jo5xicqt9zYmavOm8Zpk4ziFbu6EAvIqoDVWoRM6xNoknoKPa/Si4Uv810Tqr6TBF08+18TtY08eBDTt3K/L4rrcYPaFQ6OsMYUbV85C/biUhHIMPJhIWBtBUdb2eooUtAWc1cgBz4Jn7DGAcOUJn2zaJhwbpMmRlrLiu8hl7uIano3BMfRjgi1w/aQuqf6hZ44LmSRNfI6zyF+qPMT944ICPQd/jZKuD4t0/N1woodLpgWvbXD5/afL/BMoTabUBKMwFuojEmCuW0ciT0aMhieJIJMhtMqj8S8GAxzsLlcaUBaku++s3rRAxEAfvFriYBrdtwBn+l84G0KjZCv4L28nV9Vq4FHtO61Y7ZWWuRTNR72+1FUA8PHJx/8aNIu9p2CjFkHugbABC1M1L+BsnZ9oAzxeVIW5TM=
+ app: projet-v2
+  on:
+    repo: Theoche/projet-v2
+  run: "rake db:migrate"
